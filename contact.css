@@ -1,0 +1,438 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  width: 120px;
+  height: 30px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.navigation {
+  margin-left: 250px;
+  margin-top: -25px;
+}
+
+.nav_buttons {
+  text-decoration: none;
+  color: black;
+  margin-left: 40px;
+}
+
+.nav_buttons:hover {
+  color: gray;
+  transition: 0.3s;
+}
+
+.nav_button_get_consultation {
+  width: 206px;
+  height: 52px;
+  background:none;
+  border-color: orangered;
+  border-style: solid;
+  border-radius: 4px;
+  color: orangered;
+  margin-left: 600px;
+  margin-top: -100px;
+}
+
+.nav_button_get_consultation:hover{
+  color: white;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-style: solid;
+  transition: 0.5s;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.main-header__logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__logo h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(8, 8, 12);
+  margin-left: -20px;
+}
+
+.main-navigation {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-navigation__item {
+  display: inline-block;
+  padding: 30px;
+}
+
+.main-navigation__item a {
+  color: #424551;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 20px;
+  left: 50px;
+}
+
+.main-navigation__item a:hover {
+  color: red;
+  
+  transition: 0.5s;
+
+  
+}
+
+.main-navigation__button {
+  padding: 10px 40px;
+  margin-left: 50px;
+  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+  border-radius: 4px;
+  border: none;
+}
+
+.main-navigation__button:hover {
+  background: linear-gradient(to right, red, black);
+  color: white;
+  transition: 0.5s;
+}
+
+.main-navigation__button a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.location-info {
+  padding: 100px 0;
+}
+
+.location-service__name {
+  margin-top: 30px;
+}
+
+.message-foto {
+  margin-right: 20px;
+}
+
+.location-contacts {
+  margin-left: 25px;
+}
+
+.location > div {
+  width: 50%;
+  float: left;
+}
+
+.location-image img {
+  margin-top: 200px;
+  margin-left: -200px;
+  width: 800px;
+  height: 600px;
+}
+
+.location-image {
+  margin-top: 50px;
+}
+
+.follow-us {
+  margin-top: 50px;
+}
+
+.link {
+  margin-top: 30px;
+  margin-right: 20px;
+  color: grey;
+}
+
+.link:hover {
+  color: red;
+}
+
+.location-service__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #787a80;
+}
+
+.location-contacts {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #1e212c;
+}
+
+.follow-us {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1e212c;
+}
+
+.follow-us i:hover {
+  color: red;
+  font-size: 50px;
+  transition: 0.5s;
+}
+
+
+
+
+
+
+.report > div {
+  width: 50%;
+  float: left;
+}
+
+.report {
+  margin: 700px 0;
+}
+
+
+
+.report-image {
+  width: 300px;
+  height: 300px;
+  margin-left: -100px;
+}
+
+.report-image img {
+  width: 500px;
+  height: 500px;
+}
+
+
+
+.report-subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1e212c;
+}
+
+.report-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 130%;
+  color: #1e212c;
+  margin-bottom: 20px;
+}
+
+.search-places{
+  padding-top: 20px;
+}
+
+.inp{
+margin-left: 5px;
+padding: 10px 50px;
+background: #FFFFFF;
+border: 1px solid #D7DADD;
+border-radius: 4px; 
+margin-bottom: 20px;
+}
+
+textarea {
+  margin-top: 30px;
+  border: 1px solid #D7DADD;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.report-text {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+
+.report-button {
+  width: 206px;
+  height: 52px;
+  background:none;
+  border-color: orangered;
+  border-style: solid;
+  border-radius: 4px;
+  color: orangered;
+  margin-left: 400px;
+  margin-top: -1000px;
+}
+
+.report-button:hover {
+  color: white;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-style: solid;
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+.footer {
+  
+  margin: 0 auto;
+  background: #1e212c;
+  width: 1519px;
+  height: 400px;
+  color: white;
+  margin-top: 1400px ;
+  
+}
+
+.footer-image {
+  color: white;
+  padding: 50px 30px;
+  display: inline-block;
+}
+
+.footer-img__createx {
+  display: inline-block;
+}
+
+.footer .footer-bottom {
+  
+  padding-top: 13px;
+  background-color: rgb(24, 40, 59);
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.footer-information {
+  margin-top: 20px;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 700;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  display: inline-block;
+}
+
+.footer-links i {
+  display: inline-block;
+  margin-right: 5px;
+  color: grey;
+  width: 20px;
+  height: 20px;
+}
+
+.footer-links i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.row {
+  padding: 70px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-col {
+  margin-left: -80px;
+}
+
+.footer-col2 {
+  margin-left: 
+  width: 18%;
+  padding: 0 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-col2 h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white;
+}
+
+ul li a {
+  color: grey;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer-col2 ul li:not(:last-child) {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-col2 ul li a:hover{
+  padding: 0 5px;
+  transition: 0.5s;
+  color: white;
+}
+
+.sign-up {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgb(231, 231, 231);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.12);
+  margin-top: 20px;
+  padding: 10px 40px;
+}
+
+.vbbv {
+  font-family: "Lato";
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  margin: -25px;
+  margin-left: 10px;
+}
+
+.cccc {
+  margin-top: -15px;
+  margin-left: 220px;
+}
+
+.footer-col23 {
+  margin: -220px 920px;
+}
+
+.check{
+  margin-right: 10px;
+  padding: 1px 2px;
+  background-color: red;
+  border-radius: 4px;
+}
